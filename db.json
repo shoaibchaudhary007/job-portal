@@ -1,0 +1,1011 @@
+{
+  "users": [
+    {
+      "id": "seeker-1",
+      "email": "seeker@test.com",
+      "password": "123456",
+      "name": "Alex Seeker",
+      "role": "seeker",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150",
+      "bio": "Passionate Frontend Developer with 3+ years of experience specializing in React, Tailwind CSS, and TypeScript. Eager to solve challenging problems and build beautiful interfaces.",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Tailwind CSS",
+        "TypeScript",
+        "Vite",
+        "Axios",
+        "Zod"
+      ],
+      "location": "New York, NY"
+    },
+    {
+      "id": "employer-1",
+      "email": "employer@test.com",
+      "password": "123456",
+      "name": "Sarah Employer",
+      "role": "employer",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+      "company": "Vortex Technologies",
+      "bio": "Hiring Manager at Vortex Technologies. We are building the next generation of cloud-native collaboration and AI tools.",
+      "location": "San Francisco, CA"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Senior Frontend Engineer",
+      "company": "Vortex Technologies",
+      "companyLogo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100",
+      "location": "San Francisco, CA (Hybrid)",
+      "salary": "$130,000 - $160,000",
+      "salaryMin": 130000,
+      "salaryMax": 160000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Senior",
+      "remote": true,
+      "description": "We are looking for a Senior Frontend Engineer to lead the design and development of our primary React web application. You will collaborate closely with product managers, UX designers, and other engineers to deliver modular, scalable, and responsive user interfaces.",
+      "requirements": [
+        "5+ years of professional React experience",
+        "Expert-level understanding of CSS and Tailwind CSS",
+        "Experience with build tools like Vite and packaging tools",
+        "Excellent communication and collaboration skills"
+      ],
+      "responsibilities": [
+        "Architect reusable component libraries using React and Tailwind CSS",
+        "Optimize app performance for maximum speed and scalability",
+        "Mentor junior frontend engineers and conduct code reviews",
+        "Collaborate closely with UI/UX designers and product managers"
+      ],
+      "tags": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "TypeScript"
+      ],
+      "postedDate": "2026-05-20T10:00:00Z",
+      "featured": true,
+      "applicantsCount": 5,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-2",
+      "title": "Product Designer",
+      "company": "CreativeStudio",
+      "companyLogo": "https://images.unsplash.com/photo-1561070791-26c113006238?w=100",
+      "location": "New York, NY (Remote)",
+      "salary": "$90,000 - $120,000",
+      "salaryMin": 90000,
+      "salaryMax": 120000,
+      "type": "Full-time",
+      "category": "Design",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "CreativeStudio is seeking an imaginative Product Designer to join our remote-first design squad. In this role, you will lead research sprints, establish custom UX wireframes, and craft premium, visually striking UI assets for web and mobile software.",
+      "requirements": [
+        "3+ years of UI/UX design experience for SaaS products",
+        "Mastery of Figma, design systems, and visual layouts",
+        "Solid understanding of frontend technologies like CSS/HTML",
+        "Strong portfolio demonstrating high aesthetic standards"
+      ],
+      "responsibilities": [
+        "Translate abstract ideas into user-friendly wireframes and mockups",
+        "Conduct user research, prototyping, and usability testing",
+        "Contribute to and maintain our Figma design system libraries",
+        "Collaborate with engineering to guarantee implementation accuracy"
+      ],
+      "tags": [
+        "Figma",
+        "SaaS",
+        "UI/UX",
+        "Design"
+      ],
+      "postedDate": "2026-05-19T08:15:00Z",
+      "featured": true,
+      "applicantsCount": 2,
+      "employerId": "employer-2"
+    },
+    {
+      "id": "job-3",
+      "title": "DevOps Engineer",
+      "company": "CloudScale Systems",
+      "companyLogo": "https://images.unsplash.com/photo-1606857521015-7f9fcf423740?w=100",
+      "location": "Seattle, WA (Onsite)",
+      "salary": "$140,000 - $170,000",
+      "salaryMin": 140000,
+      "salaryMax": 170000,
+      "type": "Full-time",
+      "category": "Engineering",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "Join CloudScale Systems as a Senior DevOps Architect. We operate massive clusters across AWS and GCP and need an expert to build self-healing pipelines, optimize cloud spend, and guarantee 99.99% uptime of our customer-facing applications.",
+      "requirements": [
+        "4+ years of AWS/GCP engineering experience",
+        "Proficiency with Terraform, Kubernetes, and Docker",
+        "Experience setting up complex CI/CD platforms (GitHub Actions, Jenkins)",
+        "Scripting experience in Python, Bash, or Go"
+      ],
+      "responsibilities": [
+        "Design and scale microservices running on Kubernetes nodes",
+        "Build infrastructure as code using Terraform scripts",
+        "Monitor cluster health and resolve network/security incidents",
+        "Reduce application build times and optimize developer workflow"
+      ],
+      "tags": [
+        "Kubernetes",
+        "AWS",
+        "Terraform",
+        "Docker"
+      ],
+      "postedDate": "2026-05-18T14:40:00Z",
+      "featured": false,
+      "applicantsCount": 2,
+      "employerId": "employer-3"
+    },
+    {
+      "id": "job-4",
+      "title": "Financial Analyst",
+      "company": "Apex Capital",
+      "companyLogo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=100",
+      "location": "Boston, MA (Hybrid)",
+      "salary": "$80,000 - $105,000",
+      "salaryMin": 80000,
+      "salaryMax": 105000,
+      "type": "Full-time",
+      "category": "Finance",
+      "experienceLevel": "Mid-Level",
+      "remote": false,
+      "description": "Apex Capital is seeking a highly analytical Finance professional. In this role, you will perform corporate valuations, design forecasts, monitor investment portfolios, and present performance results directly to stakeholders and investment boards.",
+      "requirements": [
+        "2+ years of investment banking or corporate finance experience",
+        "Expert knowledge of Microsoft Excel, forecasting, and data analysis",
+        "Familiarity with financial reporting databases and Bloomberg terminal",
+        "Bachelor's degree in Finance, Economics, or related fields"
+      ],
+      "responsibilities": [
+        "Develop cash flow models and forecast company performance indicators",
+        "Analyze market trends and prepare competitive research notes",
+        "Compile quarterly financial packages for executive management",
+        "Identify cost-saving and operational optimization opportunities"
+      ],
+      "tags": [
+        "Excel",
+        "Forecasting",
+        "Analysis",
+        "SaaS Finance"
+      ],
+      "postedDate": "2026-05-17T09:00:00Z",
+      "featured": false,
+      "applicantsCount": 0,
+      "employerId": "employer-4"
+    },
+    {
+      "id": "job-5",
+      "title": "Growth Marketing Manager",
+      "company": "LaunchPad Media",
+      "companyLogo": "https://images.unsplash.com/photo-1542744094-3a31f103e35f?w=100",
+      "location": "Austin, TX (Hybrid)",
+      "salary": "$95,000 - $125,000",
+      "salaryMin": 95000,
+      "salaryMax": 125000,
+      "type": "Full-time",
+      "category": "Marketing",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "LaunchPad Media is looking for an analytical Growth Marketing Manager. You will be responsible for scaling user acquisition across paid ads, organic channels, referral flywheels, and executing creative A/B testing on our primary conversion landing pages.",
+      "requirements": [
+        "3+ years managing user acquisition channels (Google, Meta, LinkedIn Ads)",
+        "Exceptional data manipulation skills using Google Analytics, SQL, or Excel",
+        "Proven track record of managing $50k+ monthly ad budgets efficiently",
+        "Strong copywriting and visual asset formulation capabilities"
+      ],
+      "responsibilities": [
+        "Plan, manage, and optimize paid acquisition campaigns to lower CAC",
+        "Analyze conversion funnels and perform multi-variant landing page tests",
+        "Collaborate with designers to produce high-performing creative assets",
+        "Report acquisition metrics weekly to product and growth leadership"
+      ],
+      "tags": [
+        "Paid Ads",
+        "SEO",
+        "Analytics",
+        "Copywriting"
+      ],
+      "postedDate": "2026-05-16T11:20:00Z",
+      "featured": true,
+      "applicantsCount": 4,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-6",
+      "title": "Backend Developer (Node.js)",
+      "company": "DataSystems Ltd.",
+      "companyLogo": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=100",
+      "location": "Chicago, IL (Remote)",
+      "salary": "$115,000 - $145,000",
+      "salaryMin": 115000,
+      "salaryMax": 145000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "We are seeking a talented Backend Engineer to scale our Node.js and Express REST microservices. You will work on database integrations, write optimized PostgreSQL queries, implement secure JWT middleware, and design data aggregation pipelines.",
+      "requirements": [
+        "3+ years of professional backend software development",
+        "Expertise in Node.js, Express, and modern JavaScript/ES6",
+        "Strong experience with SQL databases (PostgreSQL, MySQL) and Prisma",
+        "Familiarity with Redis caching and message queues (RabbitMQ)"
+      ],
+      "responsibilities": [
+        "Build secure, modular, and optimized REST APIs for client consumption",
+        "Design schema migrations and query indexes for high performance",
+        "Integrate external webhooks (Stripe, Twilio, SendGrid)",
+        "Write comprehensive integration and unit tests for core services"
+      ],
+      "tags": [
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "REST API"
+      ],
+      "postedDate": "2026-05-15T15:30:00Z",
+      "featured": false,
+      "applicantsCount": 3,
+      "employerId": "employer-5"
+    },
+    {
+      "id": "job-7",
+      "title": "Full Stack Developer",
+      "company": "InnovateApp",
+      "companyLogo": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100",
+      "location": "Denver, CO (Hybrid)",
+      "salary": "$120,000 - $155,000",
+      "salaryMin": 120000,
+      "salaryMax": 155000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "InnovateApp is hiring a Full Stack Generalist. You will move comfortably between building responsive React UI components and managing Python/Django backend API layers, database models, and web servers.",
+      "requirements": [
+        "3+ years of experience with React (frontend) and Python/Django (backend)",
+        "Competency with Tailwind CSS, responsive design, and CSS animations",
+        "Understanding of PostgreSQL databases, transactions, and REST APIs",
+        "Familiarity with containerized development using Docker"
+      ],
+      "responsibilities": [
+        "Translate visual designs into React code integrated with API services",
+        "Develop backend models, migrations, and transactional pipelines",
+        "Support deployment flows and manage production AWS ECS nodes",
+        "Refactor legacy structures to optimize database query loading"
+      ],
+      "tags": [
+        "React",
+        "Python",
+        "Django",
+        "PostgreSQL"
+      ],
+      "postedDate": "2026-05-14T10:10:00Z",
+      "featured": true,
+      "applicantsCount": 8,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-8",
+      "title": "Lead UI/UX Designer",
+      "company": "PixelCraft Agency",
+      "companyLogo": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=100",
+      "location": "Los Angeles, CA (Onsite)",
+      "salary": "$110,000 - $140,000",
+      "salaryMin": 110000,
+      "salaryMax": 140000,
+      "type": "Full-time",
+      "category": "Design",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "PixelCraft Agency is looking for a Lead UI/UX Designer to orchestrate creative deliverables for our high-profile enterprise clients. You will manage a small team of visual designers and direct the user experience strategy for Web3, mobile, and web apps.",
+      "requirements": [
+        "5+ years of interactive design experience in an agency or SaaS setup",
+        "Outstanding Figma skill and experience defining corporate design systems",
+        "Excellent pitching, client presentation, and storytelling skills",
+        "Deep knowledge of typography, HSL palettes, and animations"
+      ],
+      "responsibilities": [
+        "Lead high-level client discovery sessions and translate insights into design paths",
+        "Oversee and approve wireframes, high-fidelity UI assets, and interactive flows",
+        "Establish unified corporate branding and design guidelines for digital products",
+        "Mentor design staff and present finished mockups to client executives"
+      ],
+      "tags": [
+        "Figma",
+        "UI/UX",
+        "Branding",
+        "Agency"
+      ],
+      "postedDate": "2026-05-13T09:45:00Z",
+      "featured": true,
+      "applicantsCount": 6,
+      "employerId": "employer-6"
+    },
+    {
+      "id": "job-9",
+      "title": "Sales Development Representative",
+      "company": "ScaleForce",
+      "companyLogo": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=100",
+      "location": "Atlanta, GA (Hybrid)",
+      "salary": "$60,000 - $75,000",
+      "salaryMin": 60000,
+      "salaryMax": 75000,
+      "type": "Full-time",
+      "category": "Sales",
+      "experienceLevel": "Entry-Level",
+      "remote": false,
+      "description": "ScaleForce is hiring an energetic Sales Development Representative (SDR). If you are highly motivated, competitive, and want to jumpstart a career in enterprise software sales, this role offers elite sales training, high commissions, and a direct path to account executive roles.",
+      "requirements": [
+        "Bachelor's degree or equivalent sales experience",
+        "Exceptional verbal communication, cold calling, and emailing capabilities",
+        "Comfortable researching leads on LinkedIn and using CRM tools (Salesforce)",
+        "Resilient, positive mindset with a high drive to hit quotas"
+      ],
+      "responsibilities": [
+        "Conduct 50+ outreach operations daily (cold calls, personalized emails, LinkedIn)",
+        "Qualify incoming marketing leads and book product demos for account executives",
+        "Map corporate hierarchies and locate key economic decision-makers",
+        "Maintain thorough documentation in Salesforce dashboard"
+      ],
+      "tags": [
+        "Salesforce",
+        "Outreach",
+        "B2B",
+        "Cold Call"
+      ],
+      "postedDate": "2026-05-12T13:00:00Z",
+      "featured": false,
+      "applicantsCount": 0,
+      "employerId": "employer-7"
+    },
+    {
+      "id": "job-10",
+      "title": "Data Scientist",
+      "company": "IntelligenceAI",
+      "companyLogo": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100",
+      "location": "San Francisco, CA (Hybrid)",
+      "salary": "$150,000 - $190,000",
+      "salaryMin": 150000,
+      "salaryMax": 190000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Senior",
+      "remote": true,
+      "description": "IntelligenceAI is hiring a Senior Data Scientist to design machine learning algorithms for consumer recommendations. You will build and deploy predictive ML models, run statistical experiments, and extract insights from multi-terabyte data warehouses.",
+      "requirements": [
+        "Master's or Ph.D. in Statistics, Computer Science, Math, or Physics",
+        "3+ years building production-grade ML models (Scikit-Learn, PyTorch, XGBoost)",
+        "Expertise in Python, SQL databases, and Apache Spark / big data pipelines",
+        "Experience running rigorous statistical A/B tests at scale"
+      ],
+      "responsibilities": [
+        "Develop recommendation engines that power our high-traffic digital feed",
+        "Design production pipelines to ingest, clean, and analyze usage data",
+        "Run multi-variant tests to measure algorithm business impact",
+        "Translate complex metrics into digestible reports for product managers"
+      ],
+      "tags": [
+        "Python",
+        "Machine Learning",
+        "SQL",
+        "PyTorch"
+      ],
+      "postedDate": "2026-05-11T16:15:00Z",
+      "featured": true,
+      "applicantsCount": 2,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-11",
+      "title": "Content Strategist",
+      "company": "BrandVoice",
+      "companyLogo": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=100",
+      "location": "Miami, FL (Remote)",
+      "salary": "$75,000 - $95,000",
+      "salaryMin": 75000,
+      "salaryMax": 95000,
+      "type": "Full-time",
+      "category": "Marketing",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "We are seeking a highly creative Content Strategist to outline our brand's written footprint. You will craft copy for high-visibility newsletters, write industry reports, outline social media campaigns, and design custom messaging frameworks.",
+      "requirements": [
+        "3+ years of professional copywriting, editing, or content strategy experience",
+        "Elite writing skills with a portfolio of blogs, landing pages, or newsletters",
+        "Understanding of SEO principles and keyword optimization techniques",
+        "Strong project management and content scheduling capabilities"
+      ],
+      "responsibilities": [
+        "Plan, write, and execute our weekly newsletter and corporate blog entries",
+        "Develop content calendars aligned with product launches and campaigns",
+        "Analyze blog performance and update content to improve SEO rankings",
+        "Coordinate with designers to produce matched visual assets for social media"
+      ],
+      "tags": [
+        "Copywriting",
+        "SEO",
+        "Content Strategy",
+        "Social Media"
+      ],
+      "postedDate": "2026-05-10T10:45:00Z",
+      "featured": false,
+      "applicantsCount": 1,
+      "employerId": "employer-8"
+    },
+    {
+      "id": "job-12",
+      "title": "Senior Product Manager",
+      "company": "SaaSify Inc.",
+      "companyLogo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=100",
+      "location": "New York, NY (Hybrid)",
+      "salary": "$145,000 - $180,000",
+      "salaryMin": 145000,
+      "salaryMax": 180000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "SaaSify is looking for a Senior Product Manager to own our developer integration ecosystem. You will conduct user research with engineer customers, define core product requirements, write PRDs, and partner with engineering to deliver APIs and SDKs.",
+      "requirements": [
+        "5+ years of product management experience managing B2B/SaaS software",
+        "Technical background (CS degree or experience as a developer) is highly valued",
+        "Elite data analytics ability using SQL, Amplitude, or Mixpanel",
+        "Strong consensus builder who can manage diverse executive stakeholders"
+      ],
+      "responsibilities": [
+        "Define the long-term vision, roadmap, and quarterly OKRs for dev platforms",
+        "Author comprehensive Product Requirement Documents (PRDs) for developer features",
+        "Host feedback sessions with developers to understand API friction points",
+        "Co-ordinate daily standups, backlog grooming, and product launch sequences"
+      ],
+      "tags": [
+        "SaaS",
+        "Product Management",
+        "SQL",
+        "APIs"
+      ],
+      "postedDate": "2026-05-09T08:30:00Z",
+      "featured": true,
+      "applicantsCount": 7,
+      "employerId": "employer-9"
+    },
+    {
+      "id": "job-13",
+      "title": "Mobile Engineer (React Native)",
+      "company": "AppVentures Ltd.",
+      "companyLogo": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=100",
+      "location": "Portland, OR (Remote)",
+      "salary": "$110,000 - $140,000",
+      "salaryMin": 110000,
+      "salaryMax": 140000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "AppVentures is hiring a Mobile Engineer to support our cross-platform iOS and Android apps. You will build new features using React Native, manage app store submission cycles, optimize memory usage, and integrate native OS APIs.",
+      "requirements": [
+        "3+ years of professional React Native developer experience",
+        "Strong competency with TypeScript, Redux, and mobile styling",
+        "Experience submitting apps to Apple App Store and Google Play Console",
+        "Familiarity with iOS/Android SDKs and bridge configurations"
+      ],
+      "responsibilities": [
+        "Implement high-fidelity mobile designs using responsive layouts",
+        "Profile and resolve performance bottlenecks (rendering, memory leaks)",
+        "Coordinate OTA updates and publish standard builds to mobile stores",
+        "Collaborate with backend teams to integrate REST endpoints securely"
+      ],
+      "tags": [
+        "React Native",
+        "TypeScript",
+        "iOS",
+        "Android"
+      ],
+      "postedDate": "2026-05-08T14:15:00Z",
+      "featured": false,
+      "applicantsCount": 2,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-14",
+      "title": "QA Automation Engineer",
+      "company": "BugFree Systems",
+      "companyLogo": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=100",
+      "location": "Dallas, TX (Hybrid)",
+      "salary": "$85,000 - $115,000",
+      "salaryMin": 85000,
+      "salaryMax": 115000,
+      "type": "Full-time",
+      "category": "Engineering",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "BugFree Systems is seeking a QA Automation Engineer. You will author comprehensive automated test suites using Cypress and Playwright to guarantee that our complex enterprise web portals stay completely bug-free across release cycles.",
+      "requirements": [
+        "3+ years of QA engineering experience with a focus on automation",
+        "Proficiency writing automated scripts in Cypress, Playwright, or Selenium",
+        "Strong JavaScript/TypeScript coding skills",
+        "Experience integrating test suites with GitHub Actions CI/CD pipelines"
+      ],
+      "responsibilities": [
+        "Write and maintain reliable E2E, integration, and API test suites",
+        "Collaborate with developers to establish test cases for new features",
+        "Monitor automated test failures in CI/CD pipelines and debug issues",
+        "Perform manual testing on complex features when automation is not feasible"
+      ],
+      "tags": [
+        "Cypress",
+        "Playwright",
+        "Automation",
+        "QA"
+      ],
+      "postedDate": "2026-05-07T11:00:00Z",
+      "featured": false,
+      "applicantsCount": 0,
+      "employerId": "employer-10"
+    },
+    {
+      "id": "job-15",
+      "title": "HR Specialist",
+      "company": "PeopleFirst Corp",
+      "companyLogo": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=100",
+      "location": "Denver, CO (Hybrid)",
+      "salary": "$65,000 - $85,000",
+      "salaryMin": 65000,
+      "salaryMax": 85000,
+      "type": "Full-time",
+      "category": "Sales",
+      "experienceLevel": "Mid-Level",
+      "remote": false,
+      "description": "PeopleFirst Corp is searching for an HR Specialist to manage employee onboarding, administer healthcare benefits, resolve employee relations items, and support talent acquisition campaigns for our growing regional office.",
+      "requirements": [
+        "2+ years of Human Resources experience in a corporate setting",
+        "Thorough understanding of labor laws, benefits administration, and HR tools",
+        "Excellent interpersonal, counseling, and dispute resolution skills",
+        "Bachelor's degree in HR, Business Administration, or similar field"
+      ],
+      "responsibilities": [
+        "Coordinate onboarding programs and run orientation training",
+        "Administer corporate benefits, leaves, and healthcare packages",
+        "Serve as the primary point of contact for employee concerns and feedback",
+        "Draft and update company policy handbooks and compliance reports"
+      ],
+      "tags": [
+        "Recruiting",
+        "HR",
+        "Compliance",
+        "Onboarding"
+      ],
+      "postedDate": "2026-05-06T09:30:00Z",
+      "featured": false,
+      "applicantsCount": 1,
+      "employerId": "employer-11"
+    },
+    {
+      "id": "job-16",
+      "title": "Engineering Project Manager",
+      "company": "BuildStrong Structures",
+      "companyLogo": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=100",
+      "location": "Phoenix, AZ (Onsite)",
+      "salary": "$90,000 - $120,000",
+      "salaryMin": 90000,
+      "salaryMax": 120000,
+      "type": "Full-time",
+      "category": "Engineering",
+      "experienceLevel": "Mid-Level",
+      "remote": false,
+      "description": "BuildStrong is seeking an Engineering Project Manager to oversee civil construction designs. You will budget project timelines, coordinate subcontractor operations, secure municipal permits, and ensure strict compliance with architectural specs.",
+      "requirements": [
+        "3+ years managing engineering or construction projects",
+        "Degree in Civil Engineering, Project Management, or PMP certification",
+        "Expertise in MS Project, CAD software, and scheduling tools",
+        "Strong leadership and subcontractor negotiation skills"
+      ],
+      "responsibilities": [
+        "Formulate project schedules, milestones, and cash budgets",
+        "Perform regular onsite site inspections for safety and specs compliance",
+        "Manage material deliveries and subcontractor workforce scheduling",
+        "Prepare progress briefs for city inspectors and client executives"
+      ],
+      "tags": [
+        "PMP",
+        "Scheduling",
+        "Civil",
+        "Management"
+      ],
+      "postedDate": "2026-05-05T13:45:00Z",
+      "featured": false,
+      "applicantsCount": 0,
+      "employerId": "employer-12"
+    },
+    {
+      "id": "job-17",
+      "title": "Cyber Security Analyst",
+      "company": "SafeNet Defense",
+      "companyLogo": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=100",
+      "location": "Washington, DC (Hybrid)",
+      "salary": "$125,000 - $155,000",
+      "salaryMin": 125000,
+      "salaryMax": 155000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "SafeNet Defense has an open role for a Cyber Security Analyst. You will monitor corporate networks for vulnerabilities, design IAM policies, investigate security events, configure firewalls, and run automated internal penetration test suites.",
+      "requirements": [
+        "4+ years of professional cyber security or SIEM monitoring experience",
+        "Certifications such as CISSP, CEH, or CompTIA Security+",
+        "Deep knowledge of network protocols, firewalls, and encryption standards",
+        "Experience auditing cloud architectures (AWS/Azure) for security compliance"
+      ],
+      "responsibilities": [
+        "Audit network logs daily to locate, flag, and neutralize potential breaches",
+        "Design threat mitigation procedures and run incident response workshops",
+        "Deploy automated firewalls and secure identity access management policies",
+        "Collaborate with developers to scan application code for security flaws"
+      ],
+      "tags": [
+        "CISSP",
+        "Network Security",
+        "Cloud Security",
+        "SIEM"
+      ],
+      "postedDate": "2026-05-04T10:00:00Z",
+      "featured": true,
+      "applicantsCount": 3,
+      "employerId": "employer-13"
+    },
+    {
+      "id": "job-18",
+      "title": "Customer Success Manager",
+      "company": "ClientFirst SaaS",
+      "companyLogo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=100",
+      "location": "Chicago, IL (Hybrid)",
+      "salary": "$70,000 - $90,000",
+      "salaryMin": 70000,
+      "salaryMax": 90000,
+      "type": "Full-time",
+      "category": "Sales",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "ClientFirst SaaS is searching for a customer success professional to manage our enterprise accounts. You will manage customer onboarding, drive feature adoption, compile usage analytics, and execute contracts renewals.",
+      "requirements": [
+        "3+ years managing client success or account relations for SaaS software",
+        "Excellent communication and presentation skills",
+        "Familiarity with ticketing tools (Zendesk) and CRM (Salesforce)",
+        "Proven ability to retain accounts and minimize churn rates"
+      ],
+      "responsibilities": [
+        "Guide enterprise clients through onboarding workshops and training",
+        "Monitor account usage trends and identify churn risks early",
+        "Coordinate with engineering to resolve urgent client technical bugs",
+        "Negotiate renewals, account upgrades, and contract expansions"
+      ],
+      "tags": [
+        "Zendesk",
+        "Account Retention",
+        "Customer Success",
+        "SaaS"
+      ],
+      "postedDate": "2026-05-03T14:30:00Z",
+      "featured": false,
+      "applicantsCount": 2,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-19",
+      "title": "SEO Specialist",
+      "company": "RankUp Digital",
+      "companyLogo": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=100",
+      "location": "Austin, TX (Remote)",
+      "salary": "$65,000 - $85,000",
+      "salaryMin": 65000,
+      "salaryMax": 85000,
+      "type": "Full-time",
+      "category": "Marketing",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "RankUp is seeking an SEO Specialist to skyrocket our client landing page traffic. You will conduct keyword research, optimize metadata layouts, run technical site speed audits, and build high-quality backlink networks.",
+      "requirements": [
+        "2+ years of professional SEO management experience",
+        "Mastery of SEO suites: SEMRush, Ahrefs, Screaming Frog, Google Search Console",
+        "Strong understanding of technical SEO (schema markup, indexation patterns)",
+        "Basic knowledge of HTML/CSS/JavaScript and CMS systems"
+      ],
+      "responsibilities": [
+        "Perform extensive keyword research and design search ranking routes",
+        "Audit client sites for load speed, crawl blocks, and mobile performance",
+        "Direct the editorial pipeline to ensure blogs target top-tier search queries",
+        "Execute white-hat backlink campaigns to elevate site domain ratings"
+      ],
+      "tags": [
+        "SEMRush",
+        "Google Search Console",
+        "SEO",
+        "Backlinks"
+      ],
+      "postedDate": "2026-05-02T11:15:00Z",
+      "featured": false,
+      "applicantsCount": 1,
+      "employerId": "employer-14"
+    },
+    {
+      "id": "job-20",
+      "title": "Cloud Architect",
+      "company": "SkyHigh Cloud Systems",
+      "companyLogo": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=100",
+      "location": "Seattle, WA (Hybrid)",
+      "salary": "$160,000 - $200,000",
+      "salaryMin": 160000,
+      "salaryMax": 200000,
+      "type": "Full-time",
+      "category": "Engineering",
+      "experienceLevel": "Senior",
+      "remote": true,
+      "description": "Join SkyHigh as a Principal Cloud Architect. In this elite role, you will design and migrate large legacy datacenters onto multi-cloud AWS, Azure, and GCP enterprise infrastructures, focusing on load balancing and cyber defense.",
+      "requirements": [
+        "8+ years of enterprise cloud infrastructure design experience",
+        "AWS Certified Solutions Architect Professional or equivalent Azure cert",
+        "Experience designing large-scale high-availability network schemas",
+        "Expertise in cloud security architectures and regulatory frameworks"
+      ],
+      "responsibilities": [
+        "Architect scalable and fault-tolerant multi-region cloud networks",
+        "Lead corporate datacenter-to-cloud migration strategies",
+        "Establish unified identity, billing, and resource containment rules",
+        "Advise software teams on optimal serverless cloud service selections"
+      ],
+      "tags": [
+        "Cloud Infrastructure",
+        "AWS Professional",
+        "Networking",
+        "Security"
+      ],
+      "postedDate": "2026-05-01T09:00:00Z",
+      "featured": true,
+      "applicantsCount": 1,
+      "employerId": "employer-15"
+    },
+    {
+      "id": "job-21",
+      "title": "Business Development Manager",
+      "company": "GrowthCorp",
+      "companyLogo": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=100",
+      "location": "Boston, MA (Hybrid)",
+      "salary": "$85,000 - $115,000",
+      "salaryMin": 85000,
+      "salaryMax": 115000,
+      "type": "Full-time",
+      "category": "Sales",
+      "experienceLevel": "Mid-Level",
+      "remote": false,
+      "description": "GrowthCorp has an immediate opening for a Business Development Manager. You will map corporate partnerships, negotiate software licenses, pitch to executive-level buyers, and represent our product at key industry trade events.",
+      "requirements": [
+        "3+ years B2B business development or enterprise tech sales experience",
+        "Outstanding presentation, negotiation, and contract closing skills",
+        "Ability to analyze industries and map viable sales opportunities",
+        "Willingness to travel (25% local and national travel)"
+      ],
+      "responsibilities": [
+        "Generate and negotiate high-value corporate partnership contracts",
+        "Deliver professional product pitches to corporate prospective buyers",
+        "Coordinate with product teams to align custom feature requests with deals",
+        "Analyze competitor offerings and draft strategic market entry briefs"
+      ],
+      "tags": [
+        "Enterprise Sales",
+        "B2B",
+        "Partnerships",
+        "Negotiation"
+      ],
+      "postedDate": "2026-04-30T13:30:00Z",
+      "featured": false,
+      "applicantsCount": 0,
+      "employerId": "employer-16"
+    },
+    {
+      "id": "job-22",
+      "title": "Financial Controller",
+      "company": "MoneyGuard Corp",
+      "companyLogo": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=100",
+      "location": "Charlotte, NC (Onsite)",
+      "salary": "$110,000 - $145,000",
+      "salaryMin": 110000,
+      "salaryMax": 145000,
+      "type": "Full-time",
+      "category": "Finance",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "MoneyGuard is hiring a Financial Controller. You will direct the company's accounting practices, oversee billing and payroll databases, compile tax filings, balance budgets, and enforce strict adherence to corporate compliance.",
+      "requirements": [
+        "5+ years of corporate accounting experience (CPA or CMA preferred)",
+        "Deep understanding of GAAP standards, corporate taxes, and accounting software",
+        "Experience managing a team of general ledger staff",
+        "Meticulous attention to detail and outstanding balance sheet auditing"
+      ],
+      "responsibilities": [
+        "Oversee the monthly closing of general ledgers and prepare balance reports",
+        "Coordinate corporate tax filings and manage third-party audit teams",
+        "Draft operational budgets and analyze monthly spending variances",
+        "Design and enforce internal accounting security check systems"
+      ],
+      "tags": [
+        "CPA",
+        "GAAP",
+        "Corporate Accounting",
+        "Auditing"
+      ],
+      "postedDate": "2026-04-29T10:00:00Z",
+      "featured": false,
+      "applicantsCount": 1,
+      "employerId": "employer-17"
+    },
+    {
+      "id": "job-23",
+      "title": "AI Research Scientist",
+      "company": "DeepMind-inspired AI Lab",
+      "companyLogo": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=100",
+      "location": "San Francisco, CA (Onsite)",
+      "salary": "$180,000 - $240,000",
+      "salaryMin": 180000,
+      "salaryMax": 240000,
+      "type": "Full-time",
+      "category": "IT",
+      "experienceLevel": "Senior",
+      "remote": false,
+      "description": "We are seeking a brilliant AI Scientist to conduct pioneering research in agentic workflows, large language model reasoning, and code generation algorithms. You will publish papers at NeurIPS/ICML and write high-efficiency CUDA kernels.",
+      "requirements": [
+        "Ph.D. in Deep Learning, Reinforcement Learning, or Theoretical Math",
+        "Outstanding publications record at NeurIPS, ICML, ICLR, or CVPR",
+        "Expert coding in PyTorch, CUDA C++, Triton, and python systems",
+        "Passionate about achieving artificial general intelligence"
+      ],
+      "responsibilities": [
+        "Design, train, and benchmark novel transformer and agent reasoning schemas",
+        "Optimize distributed model training across thousands of H100 GPU clusters",
+        "Publish high-impact deep learning research papers in leading AI forums",
+        "Implement rapid proof-of-concept models for agentic software products"
+      ],
+      "tags": [
+        "Deep Learning",
+        "PyTorch",
+        "CUDA",
+        "LLMs"
+      ],
+      "postedDate": "2026-04-28T09:00:00Z",
+      "featured": true,
+      "applicantsCount": 10,
+      "employerId": "employer-1"
+    },
+    {
+      "id": "job-24",
+      "title": "Brand Designer",
+      "company": "AestheticLabs",
+      "companyLogo": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=100",
+      "location": "Los Angeles, CA (Hybrid)",
+      "salary": "$80,000 - $105,000",
+      "salaryMin": 80000,
+      "salaryMax": 105000,
+      "type": "Full-time",
+      "category": "Design",
+      "experienceLevel": "Mid-Level",
+      "remote": true,
+      "description": "AestheticLabs is seeking a Brand Designer who excels at crafting elegant corporate visual identities. You will design brand packaging layouts, design marketing physical flyers, style presentation decks, and compile style guide books.",
+      "requirements": [
+        "3+ years of branding and brand identity design experience",
+        "Mastery of Adobe Creative Cloud (Illustrator, Photoshop, InDesign) and Figma",
+        "Expert knowledge of print layout, paper stocks, and color balancing",
+        "Strong conceptual portfolio demonstrating unique typography styles"
+      ],
+      "responsibilities": [
+        "Formulate brand guidelines covering typography, logos, and layouts",
+        "Produce high-fidelity layouts for web packaging and physical assets",
+        "Style beautiful keynote presentation decks for executive teams",
+        "Verify visual consistency across digital media and print channels"
+      ],
+      "tags": [
+        "Adobe Illustrator",
+        "Branding",
+        "Graphic Design",
+        "Typography"
+      ],
+      "postedDate": "2026-04-27T14:00:00Z",
+      "featured": false,
+      "applicantsCount": 1,
+      "employerId": "employer-18"
+    },
+    {
+      "id": "job-25",
+      "title": "Marketing Associate",
+      "company": "TrendSetters Digital",
+      "companyLogo": "https://images.unsplash.com/photo-1557200134-90327ee9fafa?w=100",
+      "location": "Atlanta, GA (Hybrid)",
+      "salary": "$50,000 - $65,000",
+      "salaryMin": 50000,
+      "salaryMax": 65000,
+      "type": "Full-time",
+      "category": "Marketing",
+      "experienceLevel": "Entry-Level",
+      "remote": false,
+      "description": "TrendSetters Digital is hiring a Marketing Associate. You will manage daily social media scheduling, design graphics on Canva, format corporate email campaigns, coordinate product giveaways, and compile marketing performance briefs.",
+      "requirements": [
+        "Bachelor's degree in Marketing, Communications, or related fields",
+        "Basic graphic design (Canva/Photoshop) and social media publishing skills",
+        "Enthusiasm for tracking trends, analytics, and social engagement",
+        "Exceptional organization and task management skills"
+      ],
+      "responsibilities": [
+        "Draft and schedule social media updates (Instagram, LinkedIn, X)",
+        "Design social media graphics and compile monthly newsletters",
+        "Monitor user reviews and engage with audience across platforms",
+        "Generate basic channel performance reports using analytics tools"
+      ],
+      "tags": [
+        "Social Media",
+        "Canva",
+        "Email Marketing",
+        "Engagement"
+      ],
+      "postedDate": "2026-04-26T10:15:00Z",
+      "featured": false,
+      "applicantsCount": 2,
+      "employerId": "employer-19"
+    }
+  ],
+  "applications": [
+    {
+      "id": "app-1",
+      "jobId": "job-1",
+      "seekerId": "seeker-1",
+      "name": "Alex Seeker",
+      "email": "seeker@test.com",
+      "phone": "+1 (555) 019-2834",
+      "resumeName": "Alex_Seeker_Resume.pdf",
+      "coverLetter": "Dear Vortex Technologies Team, I am highly thrilled to apply for the Senior Frontend Engineer position. I have over 3 years of professional experience writing clean React, styling components with Tailwind CSS, and designing beautiful user flows.",
+      "appliedDate": "2026-05-20T11:00:00Z",
+      "status": "Applied"
+    },
+    {
+      "id": "app-2",
+      "jobId": "job-5",
+      "seekerId": "seeker-1",
+      "name": "Alex Seeker",
+      "email": "seeker@test.com",
+      "phone": "+1 (555) 019-2834",
+      "resumeName": "Alex_Seeker_Resume.pdf",
+      "coverLetter": "Hello, I am super excited to apply for the Growth Marketing role. I have an extensive analytical background and love working on user acquisition channels and data funnels.",
+      "appliedDate": "2026-05-21T09:15:00Z",
+      "status": "Shortlisted"
+    },
+    {
+      "jobId": "job-3",
+      "seekerId": "seeker-1",
+      "appliedDate": "2026-05-22T10:42:57.460Z",
+      "status": "Applied",
+      "name": "Alex Seeker",
+      "email": "seeker@test.com",
+      "phone": "+923056873610",
+      "resumeName": "Shoaib-CV.pdf",
+      "coverLetter": "because i have many years of experince in this field",
+      "id": "us3eaPN"
+    }
+  ],
+  "savedJobs": [
+    {
+      "seekerId": "seeker-1",
+      "jobId": "job-2",
+      "id": "uDP8Evt"
+    },
+    {
+      "seekerId": "seeker-1",
+      "jobId": "job-1",
+      "id": "TWeDVTM"
+    }
+  ]
+}

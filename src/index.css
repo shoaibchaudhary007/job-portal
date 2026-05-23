@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --text-primary: #0f1724;
+    --text-secondary: #475569;
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --accent-blue: #2563eb;
+    --accent-hover: #1d4ed8;
+    --border-color: #e2e8f0;
+  }
+
+  .dark {
+    /* Stronger midnight palette for a richer dark theme */
+    --text-primary: #e6eef8;
+    --text-secondary: #9fb3c8;
+    --bg-primary: #071228; /* page background */
+    --bg-secondary: #0b1524; /* card / surface */
+    --accent-blue: #60a5fa;
+    --accent-hover: #3b82f6;
+    --border-color: #122433;
+  }
+
+  body {
+      @apply transition-colors duration-300 font-sans antialiased;
+      color: var(--text-primary);
+      background: radial-gradient(circle at top left, rgba(59,130,246,0.14), transparent 25%),
+        radial-gradient(circle at bottom right, rgba(59,130,246,0.10), transparent 20%),
+        var(--bg-primary);
+      min-height: 100vh;
+      background-attachment: fixed;
+  }
+
+  html.dark body,
+  body.dark {
+    background: radial-gradient(circle at top left, rgba(59,130,246,0.08), transparent 32%),
+      radial-gradient(circle at bottom right, rgba(59,130,246,0.06), transparent 24%),
+      var(--bg-primary);
+    color: var(--text-primary);
+  }
+
+  html, #root {
+    min-height: 100%;
+    background: var(--bg-primary);
+  }
+
+  /* Custom premium scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 dark:bg-slate-700 rounded-full transition-colors;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-400 dark:bg-slate-600;
+  }
+}
+
+/* Dark-mode overrides for common Tailwind utility backgrounds/texts */
+.dark .bg-white,
+.dark .bg-slate-50,
+.dark .bg-slate-100 {
+  background-color: var(--bg-secondary) !important;
+}
+
+.dark .bg-slate-900,
+.dark .bg-slate-800,
+.dark .bg-slate-950 {
+  background-color: rgba(255,255,255,0.02) !important;
+}
+
+.dark .text-slate-900,
+.dark .text-slate-800,
+.dark .text-slate-700 {
+  color: var(--text-primary) !important;
+}
+
+.dark .text-slate-500,
+.dark .text-slate-400,
+.dark .text-slate-300 {
+  color: var(--text-secondary) !important;
+}
+
+.dark .border-slate-100,
+.dark .border-slate-200,
+.dark .border-slate-300 {
+  border-color: var(--border-color) !important;
+}
+
+/* Make the page background slightly textured and darker */
+html.dark body, body.dark {
+  background: radial-gradient(circle at top left, rgba(59,130,246,0.06), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(59,130,246,0.04), transparent 24%),
+    var(--bg-primary);
+}
+
+/* Improve contrast for cards and large surfaces */
+.dark .rounded-2xl,
+.dark .rounded-3xl,
+.dark .shadow-sm,
+.dark .shadow-xl {
+  background-color: var(--bg-secondary) !important;
+  box-shadow: 0 6px 24px rgba(2,6,23,0.6) !important;
+  border-color: rgba(255,255,255,0.03) !important;
+}
+
+/* Buttons & accent adjustments */
+.dark .bg-blue-600 {
+  background-color: var(--accent-blue) !important;
+}
+.dark .text-blue-600 {
+  color: var(--accent-blue) !important;
+}
+
+/* Ensure glass surfaces stay translucent in dark mode */
+.dark .glass {
+  background: rgba(11,21,36,0.6);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+/* Native select dropdown styling for dark mode */
+.dark select,
+.dark option {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+
+select option {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.dark select option {
+  background-color: #0b1524;
+  color: #e6eef8;
+}
+
+select option:checked {
+  background: linear-gradient(#3b82f6, #3b82f6);
+  background-color: #3b82f6 !important;
+}
+
+.dark select option:checked {
+  background: linear-gradient(#60a5fa, #60a5fa);
+  background-color: #60a5fa !important;
+  color: #ffffff;
+}
+
+/* Input field styling in dark mode */
+.dark input[type="text"],
+.dark input[type="email"],
+.dark input[type="password"],
+.dark input[type="search"],
+.dark input[type="tel"],
+.dark textarea {
+  background-color: rgba(255,255,255,0.03);
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+
+.dark input::placeholder,
+.dark textarea::placeholder {
+  color: var(--text-secondary) !important;
+  opacity: 0.7;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.dark .glass {
+  background: rgba(30, 41, 59, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Pulse animation utility */
+@keyframes pulse-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(226, 232, 240, 0.2) 25%,
+    rgba(203, 213, 225, 0.4) 37%,
+    rgba(226, 232, 240, 0.2) 63%
+  );
+  background-size: 200% 100%;
+  animation: pulse-shimmer 1.5s infinite linear;
+}
+
+.dark .shimmer {
+  background: linear-gradient(
+    90deg,
+    rgba(51, 65, 85, 0.2) 25%,
+    rgba(71, 85, 105, 0.4) 37%,
+    rgba(51, 65, 85, 0.2) 63%
+  );
+  background-size: 200% 100%;
+  animation: pulse-shimmer 1.5s infinite linear;
+}
+
+/* Chrome autofill styling override */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--text-primary) !important;
+  -webkit-box-shadow: 0 0 0px 1000px var(--bg-secondary) inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
